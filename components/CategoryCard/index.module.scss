@@ -1,0 +1,24 @@
+.card {
+  @apply relative overflow-hidden py-4 px-8 w-full h-32 bg-gray-950 hover:bg-stone-900 rounded-xl transition-all duration-200 text-white flex items-center justify-center cursor-pointer ease-linear hover:scale-[1.01] active:scale-[.99] select-none;
+
+  .background-image {
+    @apply absolute ease-linear duration-200 transition-all -z-0 object-cover w-full h-full;
+
+    .hovered {
+      @apply grayscale;
+    }
+
+    .unhovered {
+      @apply grayscale-0;
+    }
+  }
+
+  .cover {
+    @apply absolute z-0 w-full h-full;
+    background: radial-gradient(circle at center, transparent, #030712);
+  }
+
+  strong {
+    @apply text-4xl bg-inherit z-0 uppercase;
+  }
+}
