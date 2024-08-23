@@ -9,7 +9,7 @@ export function Footer() {
       <div>
         <FontAwesomeIcon icon={faGithub} />
       </div>
-      <strong>o site mais inútil</strong>
+      <strong>o site mais inútial</strong>
     </div>
   );
 }
