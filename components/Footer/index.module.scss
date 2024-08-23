@@ -1,0 +1,7 @@
+.footer {
+  @apply flex flex-col items-center gap-4 bg-gray-950 text-white w-full py-3 px-8;
+
+  svg {
+    @apply w-8;
+  }
+}

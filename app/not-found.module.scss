@@ -1,0 +1,7 @@
+.content {
+  @apply flex flex-col items-center justify-evenly bg-black uppercase flex-1;
+
+  h1 {
+    @apply text-[#5A5EC1] font-black text-7xl;
+  }
+}
