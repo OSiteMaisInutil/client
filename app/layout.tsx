@@ -23,12 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <Script
-        async
-        strategy="beforeInteractive"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7303180265058367"
-        crossOrigin="anonymous"
-      ></Script>
+      <head>
+        <Script
+          async
+          strategy="beforeInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7303180265058367"
+          crossOrigin="anonymous"
+        ></Script>
+      </head>
       <body className={`${HankenGrotesk.className} ${module.content}`}>
         {children}
       </body>
