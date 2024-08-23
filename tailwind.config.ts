@@ -16,6 +16,7 @@ const config: Config = {
       },
       colors: {
         transparent: "transparent",
+        darkBg: "#030712"
       },
     },
   },

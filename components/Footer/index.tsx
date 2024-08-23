@@ -5,11 +5,10 @@ import { faGithub, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 export function Footer() {
   return (
     <div className={module.footer}>
-
       <div>
         <FontAwesomeIcon icon={faGithub} />
       </div>
-      <strong>o site mais inútial</strong>
+      <strong>o site mais inútil</strong>
     </div>
   );
 }
