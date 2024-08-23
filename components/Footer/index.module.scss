@@ -1,7 +1,7 @@
 @import "@/styles/variables";
 
 .footer {
-  @apply flex flex-col items-center gap-4 text-white w-full py-3 px-8 bg-darkBg;
+  @apply flex flex-col items-center gap-4 text-white w-full py-3 px-8 bg-gray-900;
 
   svg {
     @apply w-8;

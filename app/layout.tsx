@@ -10,6 +10,9 @@ const HankenGrotesk = Hanken_Grotesk({
 export const metadata: Metadata = {
   title: "O Site Mais Inútil",
   description: "Seja bem-vind@ ao site mais inútil da internet",
+  other: {
+    "google-adsense-account": "ca-pub-7303180265058367",
+  },
 };
 
 export default function RootLayout({
